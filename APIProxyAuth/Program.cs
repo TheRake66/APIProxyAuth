@@ -23,6 +23,9 @@ namespace APIProxyAuth
                     case "-get":
                         Program.get(args);
                         break;
+                    default:
+                        Program.bad();
+                        break;
                 }
             }
             else
